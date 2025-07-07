@@ -30,6 +30,8 @@ import cl.sermaluc.user.infrastructure.rest.dto.PhoneResponse;
 import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
 import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
 import cl.sermaluc.user.infrastructure.rest.mapper.UserDtoMapper;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
@@ -47,6 +49,9 @@ public class UserServiceTest {
 
 	@InjectMocks
 	private UserService userService;
+	
+	@PersistenceContext
+	private EntityManager entityManager;
 
 	private final UUID fakeId = UUID.randomUUID();
 	private final String email = "juan@gmail.com";

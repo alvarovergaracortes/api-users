@@ -29,13 +29,12 @@ public class UserEntity {
 	private LocalDateTime modified;
 	private LocalDateTime lastLogin;
 	
-	@Column(length = 100)
+	@Column(length = 1000)
 	private String token;
 	
 	private boolean isActive;
 	
 	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-	
 	private List<PhoneEntity> phones;
 	
 	public UUID getId() {

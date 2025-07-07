@@ -6,6 +6,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import cl.sermaluc.common.exception.EmailException;
 import cl.sermaluc.common.exception.UserNotFoundException;
@@ -34,6 +35,7 @@ public class UserService implements UserServicePort{
 
 
 	@Override
+	@Transactional
 	public UserResponse createUser(UserRequest request) {
 		userRepo.findByEmail(request.getEmail()).ifPresent(u -> {
 			throw new EmailException("El correo " + request.getEmail() + ", ya está registrado ");
