@@ -7,7 +7,7 @@ import java.util.UUID;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
 
 public class UserDetailsImpl implements UserDetails {
 	

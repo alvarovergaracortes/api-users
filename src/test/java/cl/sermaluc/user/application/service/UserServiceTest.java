@@ -23,13 +23,13 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import cl.sermaluc.common.exception.EmailException;
 import cl.sermaluc.common.exception.UserException;
 import cl.sermaluc.common.security.JwtUtil;
-import cl.sermaluc.user.infraestructura.persistence.UserJpaRepository;
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
-import cl.sermaluc.user.infraestructura.persistence.mapper.UserMapper;
-import cl.sermaluc.user.infraestructura.rest.dto.PhoneResponse;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
-import cl.sermaluc.user.infraestructura.rest.mapper.UserDtoMapper;
+import cl.sermaluc.user.infrastructure.persistence.UserJpaRepository;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.persistence.mapper.UserMapper;
+import cl.sermaluc.user.infrastructure.rest.dto.PhoneResponse;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.rest.mapper.UserDtoMapper;
 
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {

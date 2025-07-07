@@ -10,12 +10,12 @@ import org.springframework.stereotype.Service;
 import cl.sermaluc.common.exception.EmailException;
 import cl.sermaluc.common.exception.UserNotFoundException;
 import cl.sermaluc.common.security.JwtUtil;
-import cl.sermaluc.user.infraestructura.persistence.UserJpaRepository;
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
-import cl.sermaluc.user.infraestructura.persistence.mapper.UserMapper;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
-import cl.sermaluc.user.infraestructura.rest.mapper.UserDtoMapper;
+import cl.sermaluc.user.infrastructure.persistence.UserJpaRepository;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.persistence.mapper.UserMapper;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.rest.mapper.UserDtoMapper;
 
 @Service
 public class UserService implements UserServicePort{

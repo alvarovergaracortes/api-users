@@ -30,8 +30,9 @@ import cl.sermaluc.common.security.CustomAccessDeniedHandler;
 import cl.sermaluc.common.security.JwtUtil;
 import cl.sermaluc.common.security.SecurityConfig;
 import cl.sermaluc.user.application.service.UserServicePort;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.rest.UserController;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
 
 
 

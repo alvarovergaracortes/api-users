@@ -1,4 +1,4 @@
-package cl.sermaluc.user.infraestructura.persistence.entity;
+package cl.sermaluc.user.infrastructure.persistence.entity;
 
 import java.sql.Types;
 import java.time.LocalDateTime;

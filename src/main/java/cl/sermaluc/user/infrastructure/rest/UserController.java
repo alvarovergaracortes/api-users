@@ -1,4 +1,4 @@
-package cl.sermaluc.user.infraestructura.rest;
+package cl.sermaluc.user.infrastructure.rest;
 
 import java.util.List;
 import java.util.UUID;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import cl.sermaluc.user.application.service.UserServicePort;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

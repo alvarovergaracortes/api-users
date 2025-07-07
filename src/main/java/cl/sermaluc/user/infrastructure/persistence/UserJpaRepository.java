@@ -1,11 +1,11 @@
-package cl.sermaluc.user.infraestructura.persistence;
+package cl.sermaluc.user.infrastructure.persistence;
 
 import java.util.Optional;
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
 
 public interface UserJpaRepository extends JpaRepository<UserEntity, UUID> {
 	boolean existsByEmail(String email);

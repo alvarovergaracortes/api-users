@@ -1,11 +1,11 @@
-package cl.sermaluc.user.infraestructura.persistence.mapper;
+package cl.sermaluc.user.infrastructure.persistence.mapper;
 
 import java.util.stream.Collectors;
 
 import cl.sermaluc.user.domain.Phone;
 import cl.sermaluc.user.domain.User;
-import cl.sermaluc.user.infraestructura.persistence.entity.PhoneEntity;
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.PhoneEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
 
 public class UserEntityMapper {
 	public User toDomain(UserEntity entity) {

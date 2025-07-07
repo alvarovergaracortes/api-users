@@ -3,8 +3,8 @@ package cl.sermaluc.user.application.service;
 import java.util.List;
 import java.util.UUID;
 
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
 
 public interface UserServicePort {
 	UserResponse createUser(UserRequest request);

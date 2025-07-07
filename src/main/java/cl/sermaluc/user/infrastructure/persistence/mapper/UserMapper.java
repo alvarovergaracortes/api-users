@@ -1,4 +1,4 @@
-package cl.sermaluc.user.infraestructura.persistence.mapper;
+package cl.sermaluc.user.infrastructure.persistence.mapper;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
@@ -8,9 +8,9 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Component;
 
-import cl.sermaluc.user.infraestructura.persistence.entity.PhoneEntity;
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.persistence.entity.PhoneEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
 
 @Component
 public class UserMapper {

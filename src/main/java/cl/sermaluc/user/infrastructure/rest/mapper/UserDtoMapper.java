@@ -1,15 +1,15 @@
-package cl.sermaluc.user.infraestructura.rest.mapper;
+package cl.sermaluc.user.infrastructure.rest.mapper;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import cl.sermaluc.user.infraestructura.persistence.entity.PhoneEntity;
-import cl.sermaluc.user.infraestructura.persistence.entity.UserEntity;
-import cl.sermaluc.user.infraestructura.rest.dto.PhoneResponse;
-import cl.sermaluc.user.infraestructura.rest.dto.UserRequest;
-import cl.sermaluc.user.infraestructura.rest.dto.UserResponse;
+import cl.sermaluc.user.infrastructure.persistence.entity.PhoneEntity;
+import cl.sermaluc.user.infrastructure.persistence.entity.UserEntity;
+import cl.sermaluc.user.infrastructure.rest.dto.PhoneResponse;
+import cl.sermaluc.user.infrastructure.rest.dto.UserRequest;
+import cl.sermaluc.user.infrastructure.rest.dto.UserResponse;
 
 @Component
 public class UserDtoMapper {

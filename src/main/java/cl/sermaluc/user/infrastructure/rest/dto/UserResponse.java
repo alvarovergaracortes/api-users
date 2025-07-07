@@ -1,4 +1,4 @@
-package cl.sermaluc.user.infraestructura.rest.dto;
+package cl.sermaluc.user.infrastructure.rest.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
