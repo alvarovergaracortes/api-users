@@ -14,7 +14,7 @@ import jakarta.validation.Payload;
 @Target({ ElementType.FIELD })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface PasswordPattern {
-	String message() default "La contraseña no cumple con el formato requerido: al menos una mayuscula, una minuscula, un numero, minimo 8 caracteres";
+	String message() default "{password.message.invalid}";
 	Class<?>[] groups() default {};
 	Class<? extends Payload>[] payload() default {};
 }
