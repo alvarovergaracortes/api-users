@@ -166,9 +166,9 @@ mvn test
 
 En la carpeta `docs/` encontrarás:
 
-- Proyecto Postman con nombre: `api-sermaluc.postman_collection.json`
+- Proyecto Postman con nombre: `api-users.postman_collection.json`
 - `DiagramaSolucion.docx`
-- `Ejercicio_JAVA-Especialista_Integracion-BCI. (1).PDF`
+- `Ejercicio_JAVA-Especialista_Integracion-BCI.PDF`
 
 Swagger UI disponible en:
 
