@@ -66,7 +66,7 @@ public class UserController {
 		@ApiResponse(responseCode = "500", description = "Error interno del servidor")
 	})
 	@GetMapping
-	public ResponseEntity<List<UserResponse>> listar() {
+	public ResponseEntity<List<UserResponse>> findAll() {
 		return ResponseEntity.ok(service.findAll());
 	}
 	
@@ -78,7 +78,7 @@ public class UserController {
 		@ApiResponse(responseCode = "500", description = "Error interno del servidor")
 	})
 	@GetMapping("/{id}")
-	public ResponseEntity<UserResponse> obtener(@PathVariable("id") UUID id) {
+	public ResponseEntity<UserResponse> findById(@PathVariable("id") UUID id) {
 		UserResponse usuario = service.findById(id);
 		return ResponseEntity.ok(usuario);
 	}
@@ -91,7 +91,7 @@ public class UserController {
 		@ApiResponse(responseCode = "500", description = "Error interno del servidor")
 	})
 	@DeleteMapping("/{id}")
-	public ResponseEntity<Void> eliminar(@PathVariable UUID id) {
+	public ResponseEntity<Void> delete(@PathVariable UUID id) {
 		service.delete(id);
 		return ResponseEntity.noContent().build();
 	}
